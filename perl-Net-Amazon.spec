@@ -8,13 +8,13 @@
 Summary:	Net::Amazon - framework for accessing amazon.com via SOAP and XML/HTTP
 Summary(pl):	Net::Amazon - szkielet do dostêpu do amazon.com poprzez SOAP i XML/HTTP
 Name:		perl-Net-Amazon
-Version:	0.22
+Version:	0.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	08cffa850b2b914ce7050598ac9d22e1
+# Source0-md5:	3e38ecea323694778b143c0d604e4938
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
