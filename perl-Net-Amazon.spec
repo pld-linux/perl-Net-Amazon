@@ -5,12 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Amazon
-Summary:	Framework for accessing amazon.com via SOAP and XML/HTTP
-Summary(pl):	Szkielet do dostêpu do amazon.com poprzez SOAP i XML/HTTP
+Summary:	Net::Amazon - framework for accessing amazon.com via SOAP and XML/HTTP
+Summary(pl):	Net::Amazon - szkielet do dostêpu do amazon.com poprzez SOAP i XML/HTTP
 Name:		perl-Net-Amazon
 Version:	0.21
 Release:	1
-License:	Same as Perl itself
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	093c9408bfc207854f0cd39fc0d46256
