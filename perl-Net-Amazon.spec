@@ -1,6 +1,6 @@
 
 # Conditional build:
-%bcond_with	tests	# do perform "make test"
+%bcond_without	tests	# do perform "make test"
 
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
@@ -8,12 +8,12 @@
 Summary:	Framework for accessing amazon.com via SOAP and XML/HTTP
 Summary(pl):	Szkielet do dostêpu do amazon.com poprzez SOAP i XML/HTTP
 Name:		perl-Net-Amazon
-Version:	0.16
+Version:	0.17
 Release:	1
 License:	Same as Perl itself
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b7b86a8726ff99c5203d3bdd8d879765
+# Source0-md5:	bb33b3decaa659ae8ccb2fe6cb001a92
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
