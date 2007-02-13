@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Amazon
 Summary:	Net::Amazon - framework for accessing amazon.com via SOAP and XML/HTTP
-Summary(pl.UTF-8):   Net::Amazon - szkielet do dostępu do amazon.com poprzez SOAP i XML/HTTP
+Summary(pl.UTF-8):	Net::Amazon - szkielet do dostępu do amazon.com poprzez SOAP i XML/HTTP
 Name:		perl-Net-Amazon
 Version:	0.33
 Release:	1
