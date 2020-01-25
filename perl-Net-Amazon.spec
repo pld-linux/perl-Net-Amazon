@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	Amazon
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::Amazon - framework for accessing amazon.com via SOAP and XML/HTTP
 Summary(pl.UTF-8):	Net::Amazon - szkielet do dostępu do amazon.com poprzez SOAP i XML/HTTP
 Name:		perl-Net-Amazon
